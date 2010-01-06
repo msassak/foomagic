@@ -12,3 +12,11 @@ title: Foo Magic
     This is not droid sans
   </p>  
 </div>
+
+<div id="main">
+  <ul id="posts">
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
