@@ -3,7 +3,7 @@ layout: post
 title: Test test
 ---
 
-h1. {{ page.title }}
+{{ page.title }}
 
 OK. So this is a test.
 
