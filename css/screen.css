@@ -1,1 +1,6 @@
-body { background: black; color: white; font-size: 2em; }
+body { background: black; color: white; font-size: 1.1em; letter-spacing: 0.3em; }
+ul { list-style: none; }
+a:link { color: white; text-decoration: none; }
+a:visited { color: gray; text-decoration: none; }
+a:hover { color: white; text-decoration: underline; }
+#main { margin-left: 2em; margin-top: 5em; }

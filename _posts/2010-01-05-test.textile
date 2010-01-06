@@ -6,3 +6,10 @@ title: Test test
 h1. {{ page.title }}
 
 OK. So this is a test.
+
+{% highlight ruby %}
+class FooBuilder
+  def add_examples(kw, description, line)
+  end
+end
+{% endhighlight %}
