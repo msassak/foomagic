@@ -3,13 +3,11 @@ layout: default
 title: Foo Magic
 ---
 
-<div id="main">
-  <ul id="posts" class="tk-droid-sans">
-    {% for post in site.posts %}
-      <li>
-        <span>{{ post.date | date: "%d %B %Y" }}</span>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+<ul id="posts" class="tk-droid-sans">
+  {% for post in site.posts %}
+    <li>
+      <span>{{ post.date | date: "%d %B %Y" }}</span>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
